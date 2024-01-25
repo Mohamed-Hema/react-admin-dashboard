@@ -24,15 +24,7 @@ function App() {
     },
   ]);
 
-  return (
-    <div>
-      <nav>
-        <Link to="/">Home</Link>
-      </nav>
-
-      <Route path="/" element={<Home />} />
-    </div>
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;
