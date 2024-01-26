@@ -11,4 +11,8 @@
     border-radius: 10px;
     border: 1px solid $soft-bg;
   }
+  .box1 {
+    grid-column: span 1;
+    grid-row: span 3;
+  }
 }
