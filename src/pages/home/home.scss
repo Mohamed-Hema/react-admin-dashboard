@@ -10,9 +10,18 @@
     padding: 20px;
     border-radius: 10px;
     border: 1px solid $soft-bg;
+    background-color: rgb(101, 142, 156);
   }
   .box1 {
     grid-column: span 1;
     grid-row: span 3;
+  }
+  .box4 {
+    grid-column: span 1;
+    grid-row: span 3;
+  }
+  .box7 {
+    grid-column: span 2;
+    grid-row: span 2;
   }
 }
